@@ -7,11 +7,6 @@
     font-family: roboto;
 }
 
-.logo{
-    width: 60%;
-    height: 10%;
-}
-
 p{
     color: rgb(11, 1, 1);
 }
@@ -59,7 +54,7 @@ input[type="submit"] {
     text-decoration: underline;
     letter-spacing: 2px;
     word-spacing: 3px;
-    text-shadow: 3px 3px 3px rgba(0, 0, 0,0.5);
+    text-shadow: 3px 3px 3px rgba(0, 0,0.5);
 }
 
 .fa-s0lid{
