@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
 
-body{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: roboto;
-    /*background-color: blue ;*/
+}
+
+.logo{
+    width: 60%;
+    height: 10%;
 }
 
 p{
@@ -83,6 +90,7 @@ ul li a:visited{
 
 table{
     border-collapse: collapse;
+    width: 100%;
 }
 th, td{
     border-bottom: 1px solid black;
@@ -90,6 +98,30 @@ th, td{
 }
 
 tr:hover{
-    color: brown;
+    color: rgb(128, 186, 240);
     background-color: grey;
 }
+
+tr:nth-child(even){
+    background-color: rgba(117, 41, 188,0.2);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f6f6f6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0,0.1);
+    position: relative;
+}
+
+
+.nav-links{
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+
+
