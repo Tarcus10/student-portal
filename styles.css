@@ -62,7 +62,7 @@ input[type="submit"] {
     font-size: 15px;
 }
 
-ul{
+/*ul{
 list-style-type: none;
 }
 
@@ -73,15 +73,15 @@ ul li{
 
 ul li a{
     text-decoration: none;
-}
+}*/
 
-ul li a:hover{
+/*ul li a:hover{
     color: red;
 }
 
 ul li a:visited{
     color: black;
-}
+}*/
 
 table{
     border-collapse: collapse;
@@ -107,6 +107,8 @@ tr:nth-child(even){
     align-items: center;
     padding: 1rem;
     background-color: #f6f6f6;
+    margin: 20px;
+    border-radius: 10rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0,0.1);
     position: relative;
 }
@@ -118,5 +120,25 @@ tr:nth-child(even){
     list-style: none;
 }
 
+.nav-links li a{
+text-decoration: none;
+color:141D38;
+}
 
+.nav-links li a:hover{
+    color: rgb(136, 11, 132);
+}
+
+.nav-links li a:visited{
+    color: rgb(248, 80, 54);
+}
+
+.btn-one{
+    background-color: red;
+    padding: 0.8rem 1.5rem;
+    color:white;
+    border-radius: 5rem;
+    background: linear-gradient(60deg, rgb(185, 11, 11,0.8), rgba(99,52,223,0.8) );
+    margin: 10px;
+}
 
